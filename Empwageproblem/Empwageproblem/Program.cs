@@ -35,6 +35,7 @@ namespace EmployeeWages
                     case IS_FULL_TIME:
                         empHrs = 8;
                         break;
+
                     default:
                         empHrs = 0;
                         break;
