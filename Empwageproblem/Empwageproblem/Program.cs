@@ -43,8 +43,9 @@ namespace EmployeeWages
                         empHrs = 8;
                         break;
                     default:
-                        empHrs = 0;
+                        empHrs = 0; 
                         break;
+
                 }
                 totalEmpHrs += empHrs;
                 Console.WriteLine("Day:" + totalWorkingDays + " Emp hrs " + empHrs);
